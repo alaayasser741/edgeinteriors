@@ -1,0 +1,45 @@
+/* --------Mobile Screen----------- */
+
+    .navbar{
+        margin-bottom: 0%;
+        width: 100%;
+        
+    }
+
+    .navul{
+        width: 100%;
+        background-color: #5364f5;
+        position: absolute;
+        top: 45px;
+        right: 0;
+        z-index: 2;
+        text-align: center;
+        padding-right: 200px;
+    }
+    .btnnav{
+        display: none;
+    }
+    .navul li{
+        display: block;
+        margin-top:10px;
+        margin-bottom: 10px;
+        
+    }
+    .icondiv{
+        position: absolute;
+        top: 45px;
+        left: -30%;
+        z-index: 1;
+        text-align: center;
+        width: 100%;
+    }
+    .icondiv i{
+        display: inline-block;
+        margin-top:10px;
+        margin-bottom: 10px;
+        color: #05274B;
+        font-size: 20px;
+    }
+    .navul li a{
+        color: #fff;
+    }
